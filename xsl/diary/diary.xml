@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <?xml-stylesheet href="diary.xsl" type="text/xsl"?>
-<!DOCTYPE diary "diary.dtd">
+<!DOCTYPE diary SYSTEM "diary.dtd">
 <diary>
     <event>
         <date>2/10/2002</date>
