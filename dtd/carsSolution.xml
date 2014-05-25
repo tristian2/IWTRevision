@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE stock [
+        <!ELEMENT stock     ((new-car | used-car)*) >
+        <!ELEMENT new-car   (model, price) >
+        <!ELEMENT used-car  (model, mileage, price, condition?) >
+        <!ELEMENT model     (#PCDATA) >
+        <!ELEMENT mileage   (#PCDATA) >
+        <!ELEMENT price     (#PCDATA) >
+        <!ELEMENT condition (#PCDATA) >
+        ]>
+<stock>
+    <new-car>
+        <model>Smart</model>
+        <price>6000</price>
+    </new-car>
+    <used-car>
+        <model>Smart</model>
+        <mileage>80000</mileage>
+        <price>5000</price>
+        <condition>as new</condition>
+    </used-car>
+    <used-car>
+        <model>Smart</model>
+        <mileage>20000</mileage>
+        <price>5500</price>
+    </used-car>
+</stock>

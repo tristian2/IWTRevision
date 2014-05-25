@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet href="olympics.xsl" type="text/xsl"?>
+<!DOCTYPE events [
+        <!ELEMENT events (event*)>
+        <!ELEMENT event (eventname, athletes)>
+        <!ELEMENT eventname (#PCDATA)>
+        <!ELEMENT athletes (athlete*)>
+        <!ELEMENT athlete (name, country, position?,medal?)>
+        <!ELEMENT name (#PCDATA)>
+        <!ELEMENT country (#PCDATA)>
+        <!ELEMENT position (#PCDATA)>
+        <!ELEMENT medal (#PCDATA)>
+        ]>
+<events>
+    <event>
+        <eventname>Javelin</eventname>
+        <athletes>
+            <athlete>
+                <name>bob thrower</name>
+                <country>USA</country>
+                <position>1
+                </position>
+                <medal>gold</medal>
+            </athlete>
+            <athlete>
+                <name>Yuri pole</name>
+                <country>USSR</country>
+                <position>2
+                </position>
+                <medal>silver</medal>
+            </athlete>
+            <athlete>
+                <name>John Smith</name>
+                <country>GB</country>
+                <position>3
+                </position>
+                <medal>bronze</medal>
+            </athlete>
+        </athletes>
+    </event>
+    <event>
+        <eventname>100m mens</eventname>
+        <athletes>
+            <athlete>
+                <name>Mo Farah</name>
+                <country>GB</country>
+                <position>1
+                </position>
+                <medal>gold</medal>
+            </athlete>
+            <athlete>
+                <name>Bob doler</name>
+                <country>USA</country>
+                <position>3
+                </position>
+                <medal>bronze</medal>
+            </athlete>
+            <athlete>
+                <name>OLaf finursson</name>
+                <country>Norway</country>
+            </athlete>
+        </athletes>
+    </event>
+    <event>
+        <eventname>swimming</eventname>
+        <athletes>
+            <athlete>
+                <name>john pool</name>
+                <country>USA</country>
+                <position>1
+                </position>
+                <medal>gold</medal>
+            </athlete>
+            <athlete>
+                <name>Pierre Pascale</name>
+                <country>UK</country>
+                <position>2
+                </position>
+                <medal>silver</medal>
+            </athlete>
+            <athlete>
+                <name>Henks Henkmann</name>
+                <country>Germany</country>
+                <position>3
+                </position>
+                <medal>bronze</medal>
+            </athlete>
+        </athletes>
+    </event>
+</events>

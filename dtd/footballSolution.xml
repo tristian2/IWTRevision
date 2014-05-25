@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE games [
+        <!ELEMENT games    (game)+ >
+        <!ELEMENT game     (team, team) >
+        <!ELEMENT team     (name, goals?, bookings?) >
+        <!ELEMENT name     (#PCDATA) >
+        <!ELEMENT goals    (goal | penalty)+ >
+        <!ELEMENT goal     (player, time) >
+        <!ELEMENT penalty  (player, time) >
+        <!ELEMENT bookings (booking)+ >
+        <!ELEMENT booking  (player, time) >
+        <!ELEMENT player   (#PCDATA) >
+        <!ELEMENT time     (#PCDATA) >
+        <!ATTLIST team
+                venue (home|away) #REQUIRED >
+        <!ATTLIST booking
+                type (yellow|red) "yellow" >
+        ]>
+<games>
+    <game>
+        <team venue="home">
+            <name>Arsenal</name>
+            <goals>
+                <goal>
+                    <player>Gervinho</player>
+                    <time>27</time>
+                </goal>
+                <goal>
+                    <player>Van Persie</player>
+                    <time>73</time>
+                </goal>
+                <goal>
+                    <player>Van Persie</player>
+                    <time>82</time>
+                </goal>
+            </goals>
+        </team>
+        <team venue="away">
+            <name>Stoke</name>
+            <goals>
+                <goal>
+                    <player>Crouch</player>
+                    <time>34</time>
+                </goal>
+            </goals>
+            <bookings>
+                <booking>
+                    <player>Whitehead</player>
+                    <time>31</time>
+                </booking>
+                <booking>
+                    <player>Wilkinson</player>
+                    <time>55</time>
+                </booking>
+            </bookings>
+        </team>
+    </game>
+    <game>
+        <team venue="home">
+            <name>QPR</name>
+            <goals>
+                <penalty>
+                    <player>Helguson</player>
+                    <time>10</time>
+                </penalty>
+            </goals>
+            <bookings>
+                <booking>
+                    <player>Derry</player>
+                    <time>52</time>
+                </booking>
+                <booking>
+                    <player>Barton</player>
+                    <time>59</time>
+                </booking>
+            </bookings>
+        </team>
+        <team venue="away">
+            <name>Chelsea</name>
+            <bookings>
+                <booking type="red">
+                    <player>Bosingwa</player>
+                    <time>33</time>
+                </booking>
+                <booking type="red">
+                    <player>Drogba</player>
+                    <time>41</time>
+                </booking>
+                <booking>
+                    <player>Mikel</player>
+                    <time>50</time>
+                </booking>
+                <booking>
+                    <player>Lampard</player>
+                    <time>52</time>
+                </booking>
+                <booking>
+                    <player>Ivanovic</player>
+                    <time>58</time>
+                </booking>
+                <booking>
+                    <player>David Luiz</player>
+                    <time>70</time>
+                </booking>
+                <booking>
+                    <player>Meireles</player>
+                    <time>72</time>
+                </booking>
+                <booking>
+                    <player>Cole</player>
+                    <time>76</time>
+                </booking>
+                <booking>
+                    <player>Terry</player>
+                    <time>90</time>
+                </booking>
+            </bookings>
+        </team>
+    </game>
+</games>

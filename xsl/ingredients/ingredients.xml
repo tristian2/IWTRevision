@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet href="ingredients.xsl" type="text/xsl"?>
+<recipies>
+    <recipie>
+        <name>Chicken korma</name>
+        <ingredients>
+            <ingredient>
+                <quantity>5</quantity>
+                <description>chicken breast</description>
+            </ingredient>
+            <ingredient>
+                <quantity>100oz</quantity>
+                <description>rice</description>
+            </ingredient>
+            <ingredient>
+                <quantity>10oz</quantity>
+                <description>tomato</description>
+            </ingredient>
+        </ingredients>
+        <method>place in a nuclear reactor</method>
+    </recipie>
+    <recipie>
+        <name>chocolate pudding</name>
+        <ingredients>
+            <ingredient>
+                <quantity>10oz</quantity>
+                <description>chocolate</description>
+            </ingredient>
+            <ingredient>
+                <quantity>1oz</quantity>
+                <description>gold</description>
+            </ingredient>
+        </ingredients>
+        <method>place in a cement mixer</method>
+    </recipie>
+    <recipie>
+        <name>ricin</name>
+        <ingredients>
+            <ingredient>
+                <quantity>10</quantity>
+                <description>castor beans</description>
+            </ingredient>
+            <ingredient>
+                <quantity>1 bottle</quantity>
+                <description>washing up liquid</description>
+            </ingredient>
+        </ingredients>
+        <method>place in a pressure cooker and heat up to 1000 degrees centigrade</method>
+    </recipie>
+    <recipie>
+        <name>Mole</name>
+        <ingredients>
+            <ingredient>
+                <quantity>5</quantity>
+                <description>chicken breast</description>
+            </ingredient>
+            <ingredient>
+                <quantity>100oz</quantity>
+                <description>rice</description>
+            </ingredient>
+            <ingredient>
+                <quantity>10oz</quantity>
+                <description>chocolate</description>
+            </ingredient>
+            <ingredient>
+                <quantity>500</quantity>
+                <description>chillies</description>
+            </ingredient>
+        </ingredients>
+        <method>put in a box with a grenade</method>
+    </recipie>
+</recipies>

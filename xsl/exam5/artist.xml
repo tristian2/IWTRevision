@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet href="artist.xsl" type="text/xsl"?>
+<!DOCTYPE recordings [
+        <!ELEMENT recordings (recording+)>
+        <!ELEMENT recording (artist?, track) >
+        <!ELEMENT track (title, length+)>
+        <!ELEMENT title (#PCDATA)>
+        <!ELEMENT length (#PCDATA)>
+]>
+<recordings>
+    <recording>
+        <artist>michael jackson</artist>
+        <track>
+            <title>beat it</title>
+            <length>15</length>
+        </track>
+        <track>
+            <title>thriller</title>
+        </track>
+    </recording>
+</recordings>

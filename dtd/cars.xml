@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--
+
+The stock of the dealer comprises zero or more cars, each of which is either a new-car or a used-car. For
+a new-car, information on model and price are recorded. For a used-car, information on model, mileage and
+price are recorded, along with optional information about the condition of the car. Elements model, mileage,
+ price and condition contain text.
+-->
+<!DOCTYPE cars [
+        <!ELEMENT cars (car*)>
+        <!ELEMENT car (type, model, price, condition*, mileage?)>
+        <!ELEMENT type (#PCDATA)>
+        <!ELEMENT model (#PCDATA)>
+        <!ELEMENT price (#PCDATA)>
+        <!ELEMENT condition (#PCDATA)>
+        <!ELEMENT mileage (#PCDATA)>
+        ]>
+<cars>
+    <car>
+        <type>New</type>
+        <model>VW Beetle</model>
+        <price>19000</price>
+    </car>
+    <car>
+        <type>Used</type>
+        <model>Saab</model>
+        <price>2500</price>
+        <condition>good</condition>
+        <mileage>99000</mileage>
+    </car>
+    <car>
+        <type>New</type>
+        <model>Ford</model>
+        <price>9000</price>
+    </car>
+    <car>
+        <type>Used</type>
+        <model>Beetle</model>
+        <price>1000</price>
+        <condition>2008-11-27</condition>
+        <mileage>Male</mileage>
+    </car>
+</cars>

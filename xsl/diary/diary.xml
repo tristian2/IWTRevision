@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet href="diary.xsl" type="text/xsl"?>
+<!DOCTYPE diary "diary.dtd">
+<diary>
+    <event>
+        <date>2/10/2002</date>
+        <time>18:00</time>
+        <duration>3:00</duration>
+        <description>MScEC lecture</description>
+        <repeat>
+            <until>11/12/2002</until>
+        </repeat>
+    </event>
+    <event>
+        <date>27/06/2002</date>
+        <description>An important birthday</description>
+        <repeat frequency="yearly"/>
+    </event>
+    <event>
+        <date>13/08/2014</date>
+        <description>TRIS THE KING'S birthday</description>
+        <repeat frequency="yearly"/>
+    </event>
+</diary>

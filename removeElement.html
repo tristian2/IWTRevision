@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+
+</head>
+<body>
+         <p id="myParagraph">hello world</p>
+         <p id="anotherParagraph">again hello world</p>
+             <p id="myTable">
+                 <p>row 1</p>
+                 <p>row 2</p>
+                 <p>row 3</p>
+                 <p>row 4</p>
+             </p>
+         <script type="text/javascript"  >
+             var paragraphId = document.getElementById("myParagraph");
+             if (paragraphId) {
+                 paragraphId.parentNode.removeChild(paragraphId);
+             }
+
+             document.body.children['myTable'].removeChild(document.body.children['myTable'].children[3]);
+             document.body.children['myTable'].removeChild(document.body.children['myTable'].lastChild);
+
+         </script>
+</body>
+</html>

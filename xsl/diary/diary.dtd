@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT diary       (event*) >
+<!ELEMENT event       (date, (time, duration)?, description, repeat?) >
+<!ELEMENT repeat      (until | occurrences)? >
+<!ELEMENT date        (#PCDATA) >
+<!ELEMENT time        (#PCDATA) >
+<!ELEMENT duration    (#PCDATA) >
+<!ELEMENT description (#PCDATA) >
+<!ELEMENT until       (#PCDATA) >
+<!ELEMENT occurrences (#PCDATA) >
+<!ATTLIST repeat
+        frequency (weekly | monthly | yearly) "weekly" >
